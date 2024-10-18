@@ -8,26 +8,34 @@
 <body>
 <nav class="navbar">
     <ul class="navbar ul">
-
-  <li class="navbar li"><a id="home" class="navbar a" >Home </a></li>
-  <li class="navbar li"><a href="./About.html" class="navbar a" >About Us </a></li>
-  <li class="navbar li"><a href="./Contact.html" class="navbar a" >Contact Us </a></li>
-  <li class="navbar li"><input type="text" id="search" placeholder="Enter a destination or keyword">  </li>
-  <li class="navbar li"><button id='btnSearch'>Search</button>
-<li class="navbar li"><button id='reset'>Clear</button>
-  </li>
-
-</ul>
-
+        <li class="navbar li"><a id="home" class="navbar a">Home</a></li>
+        <li class="navbar li"><a href="./About.html" class="navbar a">About Us</a></li>
+        <li class="navbar li"><a href="./Contact.html" class="navbar a">Contact Us</a></li>
+        <li class="navbar li">
+            <input type="text" id="search" placeholder="Enter a destination or keyword">  
+        </li>
+        <li class="navbar li">
+            <button id='btnSearch'>Search</button>
+            <p class="error" id="errorMessage"></p> <!-- Error message area -->
+            <div id="imageContainer"></div>
+        </li>
+        <li class="navbar li">
+            <button id='reset'>Clear</button>
+        </li>
+    </ul>
 </nav>
+
 <div class="container">
-<img src="./travelbackground.png" alt="background">
-<div class="left"><b>EXPLORE YOUR <br/>DREAM DESTINATION</b>
+    <img src="./travelbackground.png" alt="background">
+    <div class="left"><b>EXPLORE YOUR <br/>DREAM DESTINATION</b></div>
+    <div class="bottom-left">
+        <p>Welcome to Travel Bloom! – your gateway to unforgettable adventures! Whether you're seeking serene
+        <br/> beaches, bustling cityscapes, or breathtaking mountain escapes, we've got the perfect journey for you. Explore handpicked destinations,  
+        <br/> personalized itineraries, and travel tips designed to make your experience seamless and extraordinary. Start planning your next getaway with us, 
+        <br/> and let your travel dreams come to life! Adventure awaits – let's explore the world together!</p>
+    </div>
 </div>
-<div class="bottom-left">
-    <p >Welcome to Travel Bloom! – your gateway to unforgettable adventures! Whether you're seeking serene</br> beaches, bustling cityscapes, or breathtaking mountain escapes, we've got the perfect journey for you. Explore handpicked destinations,  </br>personalized itineraries,and travel tips designed to make your experience seamless and extraordinary. Start planning your next getaway with us, </br>and let your travel dreams come to life! 
 
-        Adventure awaits – let's explore the world together!</p>
-</div>
-
+<script src="travel_recommendation.js"></script> <!-- Corrected script tag -->
 </body>
+</html>

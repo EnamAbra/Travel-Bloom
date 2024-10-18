@@ -93,18 +93,36 @@
   background-color:rgba(0, 0, 0, .4);
  
     }
-    .label {
-        margin-bottom: 5px;
-        font-weight: bold;
-        
-    }
-    
-    .input, textarea {
-        padding: 10px;
-        margin-bottom: 15px;
-        border: 1px solid #ccc;
-        border-radius: 5px;
-        width: 100%;
-        box-sizing: border-box;
-        font-size: 16px;
-        background-color:rgba(0, 0, 0, .4);}
+     input, textarea {
+            width: 20cm; /* Set width to 8cm */
+            padding: 8px;
+            margin-bottom: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+             background-color:rgba(0, 0, 0, .4);
+        }
+
+        textarea {
+            height: 200px;
+             background-color:rgba(0, 0, 0, .4);
+            /* You can adjust this height as per your need */
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color:ivory;
+            color:black;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 10cm;
+            align-self: center;
+        }
+
+        button:hover {
+            background-color:cornflowerblue;
+        }
+        .image-item img {
+            max-width: 500px; 
+            height: auto; 
+        }

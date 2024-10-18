@@ -38,7 +38,7 @@
         "cities": [
           {
             "name": "Rio de Janeiro, Brazil",
-            "imageUrl": "enter_your_image_for_rio.jpg",
+            "imageUrl": "Rio.png",
             "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
           },
           {
@@ -53,7 +53,7 @@
       {
         "id": 1,
         "name": "Angkor Wat, Cambodia",
-        "imageUrl": "angkor.png",
+        "imageUrl": "Angkor.png",
         "description": "A UNESCO World Heritage site and the largest religious monument in the world."
       },
       {
