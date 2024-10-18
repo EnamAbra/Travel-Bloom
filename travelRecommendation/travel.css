@@ -1,0 +1,24 @@
+.navbar{
+    background-color:goldenrod;
+}
+.navbar ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 0;            /* Remove default padding */
+  margin: 0;             /* Remove default margin */
+           /* Use flexbox to arrange items horizontally */
+
+}
+
+.navbar li {
+  margin-right: 20px;    /* Add space between items */
+  display: inline-block;
+  
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline from links */
+  color:black;          /* Set link color */
+  padding: 10px;         /* Add padding for clickable area */
+  display: block;  
+    
+}
