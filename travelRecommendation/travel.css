@@ -53,3 +53,58 @@
     font-size: 15px;
     white-space: nowrap;
 }
+.team{
+    position: absolute;
+    top: 300px;
+    left:  45px;
+    display: flex;
+}
+.box-container {
+    display: flex;
+    gap: 20px;
+}
+
+.box {
+    width: 250px;
+    height: 100px;
+    background-color:rgba(0, 0, 0, .4);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);}
+    .our{
+        color: white;
+        padding-right: 35px;
+    }
+    .contact-center{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 70px;
+    }
+    .form{
+        position: absolute;
+  bottom: 8px;
+  right: 16px;
+  background-color:rgba(0, 0, 0, .4);
+ 
+    }
+    .label {
+        margin-bottom: 5px;
+        font-weight: bold;
+        
+    }
+    
+    .input, textarea {
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        box-sizing: border-box;
+        font-size: 16px;
+        background-color:rgba(0, 0, 0, .4);}
