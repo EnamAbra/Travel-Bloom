@@ -22,3 +22,34 @@
   display: block;  
     
 }
+.container{
+    position: relative;
+}
+.left{
+    position: absolute;
+    bottom: 270px;
+    left: 80px;
+    font-size: 60px;
+    color: white;
+}
+.bottom-left{
+    position: absolute;
+    bottom: 160px;
+    left: 80px;
+    font-size: 15px;
+    color: white;
+}
+.about-top{
+    font-size: 60px;
+    color: white;
+    position: absolute;
+  top: 70px;
+  left: 70px;
+}
+.p{
+    position: absolute;
+    top: 60px;
+    left:  5px;
+    font-size: 15px;
+    white-space: nowrap;
+}
