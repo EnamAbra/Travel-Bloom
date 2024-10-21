@@ -2,23 +2,23 @@
     background-color:goldenrod;
 }
 .navbar ul {
-  list-style-type: none; /* Remove bullet points */
-  padding: 0;            /* Remove default padding */
-  margin: 0;             /* Remove default margin */
-           /* Use flexbox to arrange items horizontally */
+  list-style-type: none; 
+  padding: 0;           
+  margin: 0;             
+        
 
 }
 
 .navbar li {
-  margin-right: 20px;    /* Add space between items */
+  margin-right: 20px;    
   display: inline-block;
   
 }
 
 .navbar a {
-  text-decoration: none; /* Remove underline from links */
-  color:black;          /* Set link color */
-  padding: 10px;         /* Add padding for clickable area */
+  text-decoration: none; 
+  color:black;         
+  padding: 10px;        
   display: block;  
     
 }
@@ -105,7 +105,7 @@
         textarea {
             height: 200px;
              background-color:rgba(0, 0, 0, .4);
-            /* You can adjust this height as per your need */
+            
         }
 
         button {
