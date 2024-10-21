@@ -22,12 +22,12 @@
         "cities": [
           {
             "name": "Tokyo, Japan",
-            "imageUrl": "japan.png",
+            "imageUrl": "japannew.png",
             "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
           },
           {
             "name": "Kyoto, Japan",
-            "imageUrl": "enter_your_image_for_kyoto.jpg",
+            "imageUrl": "kyoto.png",
             "description": "Known for its historic temples, gardens, and traditional tea houses."
           }
         ]
@@ -59,7 +59,7 @@
       {
         "id": 2,
         "name": "Taj Mahal, India",
-        "imageUrl": "Tag.png",
+        "imageUrl": "Taj.png",
         "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
       }
     ],
